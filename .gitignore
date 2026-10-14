@@ -1,0 +1,7 @@
+/downloads/
+/relinked-output/
+*.adi
+*.adif
+*.adx
+.env*
+__pycache__/

@@ -1,0 +1,82 @@
+[
+  {
+    "component": "components/mbedtls/mbedtls",
+    "repository": "espressif/mbedtls",
+    "commit": "9d669eadb1955d348986b9280156710aaaadf79f",
+    "licence": "LICENSE",
+    "url": "https://raw.githubusercontent.com/espressif/mbedtls/9d669eadb1955d348986b9280156710aaaadf79f/LICENSE"
+  },
+  {
+    "component": "components/lwip/lwip",
+    "repository": "espressif/esp-lwip",
+    "commit": "fd432e4ee2cfb7f7f1c7eb7227e0173412e7b84e",
+    "licence": "COPYING",
+    "url": "https://raw.githubusercontent.com/espressif/esp-lwip/fd432e4ee2cfb7f7f1c7eb7227e0173412e7b84e/COPYING"
+  },
+  {
+    "component": "components/esp_wifi/lib",
+    "repository": "espressif/esp32-wifi-lib",
+    "commit": "22bb3517b08760ed43b889013f8a122db0d46da0",
+    "licence": "LICENSE",
+    "url": "https://raw.githubusercontent.com/espressif/esp32-wifi-lib/22bb3517b08760ed43b889013f8a122db0d46da0/LICENSE"
+  },
+  {
+    "component": "components/esp_phy/lib",
+    "repository": "espressif/esp-phy-lib",
+    "commit": "59c1234e929212aec0fdda75769b759951235536",
+    "licence": "LICENSE",
+    "url": "https://raw.githubusercontent.com/espressif/esp-phy-lib/59c1234e929212aec0fdda75769b759951235536/LICENSE"
+  },
+  {
+    "component": "components/esp_coex/lib",
+    "repository": "espressif/esp-coex-lib",
+    "commit": "79e618f033e926d134decc6d95bb1b1850bd032c",
+    "licence": "LICENSE",
+    "url": "https://raw.githubusercontent.com/espressif/esp-coex-lib/79e618f033e926d134decc6d95bb1b1850bd032c/LICENSE"
+  },
+  {
+    "component": "components/bt/controller/lib_esp32",
+    "repository": "espressif/esp32-bt-lib",
+    "commit": "b4b7c54b1eab6a844789b69e56322ef5736eddc8",
+    "licence": "LICENSE",
+    "url": "https://raw.githubusercontent.com/espressif/esp32-bt-lib/b4b7c54b1eab6a844789b69e56322ef5736eddc8/LICENSE"
+  },
+  {
+    "component": "components/heap/tlsf",
+    "repository": "espressif/tlsf",
+    "commit": "2867f6883a12920b1969ff9624c0ab0e4185c2ce",
+    "licence": "tlsf.c",
+    "url": "https://raw.githubusercontent.com/espressif/tlsf/2867f6883a12920b1969ff9624c0ab0e4185c2ce/tlsf.c"
+  },
+  {
+    "component": "components/bootloader/subproject/components/micro-ecc/micro-ecc",
+    "repository": "kmackay/micro-ecc",
+    "commit": "24c60e243580c7868f4334a1ba3123481fe1aa48",
+    "licence": "LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/kmackay/micro-ecc/24c60e243580c7868f4334a1ba3123481fe1aa48/LICENSE.txt"
+  },
+  {
+    "repository": "joltwallet/esp_littlefs",
+    "version": "v1.22.3",
+    "licence": "LICENSE",
+    "url": "https://raw.githubusercontent.com/joltwallet/esp_littlefs/v1.22.3/LICENSE"
+  },
+  {
+    "repository": "littlefs-project/littlefs",
+    "version": "v2.11.3",
+    "licence": "LICENSE.md",
+    "url": "https://raw.githubusercontent.com/littlefs-project/littlefs/v2.11.3/LICENSE.md"
+  },
+  {
+    "repository": "gcc-mirror/gcc",
+    "version": "releases/gcc-14.2.0",
+    "licence": "COPYING.RUNTIME",
+    "url": "https://raw.githubusercontent.com/gcc-mirror/gcc/releases/gcc-14.2.0/COPYING.RUNTIME"
+  },
+  {
+    "repository": "gcc-mirror/gcc",
+    "version": "releases/gcc-14.2.0",
+    "licence": "COPYING3",
+    "url": "https://raw.githubusercontent.com/gcc-mirror/gcc/releases/gcc-14.2.0/COPYING3"
+  }
+]
