@@ -9,3 +9,5 @@ OFL-licensed Noto Sans for compact proportional text and includes library licenc
 credits. Existing station settings and touch calibration survive normal updates.
 
 ADIF/DXCC alert development will be separate from this stable baseline.
+
+Release status: unpublished draft. Includes a Settings touch correction awaiting physical verification; ordinary buttons use stable samples and Save requires a press beginning inside Save.
