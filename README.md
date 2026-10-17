@@ -4,11 +4,9 @@
 
 By **G1CEC - Chris Raynerd**. Copyright 2026.
 
-**Release status:** The first firmware package is prepared as a draft. Hardware verification of a reported Settings/Wi-Fi touch issue is pending USB reconnection. No public firmware download has been published yet.
-
 ## Download and install
 
-Download **Ham-Pilot-v0.3.4-firmware.zip** from [Releases](https://github.com/chrisraynerd/ham-pilot/releases).
+Use the [browser installer](https://raynerd.co.uk/ham-pilot/#install), or download **Ham-Pilot-v0.3.5-firmware.zip** from [Releases](https://github.com/chrisraynerd/ham-pilot/releases/latest).
 Read [INSTALL.md](INSTALL.md) before flashing. The supported board has a 320 x 240
 ILI9341 display, XPT2046 resistive touch and 4 MB ESP32 flash. Similar-looking
 boards with other display or touch controllers may need different firmware.
@@ -37,6 +35,8 @@ and sign in as `ham` using that same device password. Saved profiles remain on
 the device during normal updates. Choose your local time zone and reporting
 station filters; the initial time zone and cluster filter are UK-oriented.
 
+On-device Wi-Fi settings include Show/Hide for checking and correcting the existing password. Tap Done, Back, then Save settings & restart to apply changes.
+
 Tap the bottom-left clock for Settings; tap Info for calendars. Tap a DX row for
 details and Back to return. Tap a page header/blank area to advance. Hold roughly
 one second to pause/resume, or four seconds for Settings. Each page can have its
@@ -54,7 +54,7 @@ Pilot application is developed privately. Release assets include the required
 library sources/notices and application object files/instructions for LGPL
 relinking. Those are not an editable Ham Pilot application project.
 
-ADIF import and new-DXCC alerts are **planned, not included in v0.3.4**.
+ADIF import and new-DXCC alerts are **planned, not included in v0.3.5**.
 Report bugs through Issues with the firmware version and board details. Do not
 attach Wi-Fi passwords, full flash backups, private logs or device login details.
 

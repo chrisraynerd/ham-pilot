@@ -1,4 +1,4 @@
-# Installing Ham Pilot v0.3.4
+# Installing Ham Pilot v0.3.5
 
 ## Supported hardware
 
@@ -11,7 +11,7 @@ No VHF functions or CAT connection are included.
 ## Windows flashing
 
 1. Install Python 3 and, if Windows needs it, the board vendor's CH340 USB driver.
-2. Download and extract Ham-Pilot-v0.3.4-firmware.zip from Releases.
+2. Download and extract Ham-Pilot-v0.3.5-firmware.zip from Releases.
 3. In a terminal install the uploader: `py -m pip install esptool==5.3.1`.
 4. Find the board's COM port in Windows Device Manager. Close software using it.
 5. In PowerShell, from the extracted folder, run `./Flash-HamPilot.ps1 -Port COM6`,
@@ -39,7 +39,9 @@ vendor's BOOT/RESET procedure and retry, or reduce the baud rate to 115200.
 
 The Ham Pilot title appears briefly. A new board asks for three touch targets.
 Tap and release each one, then enter your station and Wi-Fi in Settings and Save.
-Calls, locator and place are blank on fresh installations. UK time zone and UK
+On the Wi-Fi page or password keyboard, tap Show to check the password.
+Editing starts with the existing value; tap Done, Back, then Save settings &
+restart to apply corrections. Calls, locator and place are blank on fresh installations. UK time zone and UK
 cluster reporting prefixes are initial defaults; change them for your location.
 The on-device Web setup page gives the address and device-specific login.
 
