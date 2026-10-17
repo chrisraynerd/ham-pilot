@@ -11,6 +11,10 @@ Read [INSTALL.md](INSTALL.md) before flashing. The supported board has a 320 x 2
 ILI9341 display, XPT2046 resistive touch and 4 MB ESP32 flash. Similar-looking
 boards with other display or touch controllers may need different firmware.
 
+The website installer follows the latest published stable GitHub release, checked
+every five minutes. Drafts and prereleases stay out of the installer. See
+[RELEASING.md](RELEASING.md) for the approval and publication process.
+
 ## What it shows
 
 - PSK Propagation from your chosen location: recent nearby receiver reports by HF band.
